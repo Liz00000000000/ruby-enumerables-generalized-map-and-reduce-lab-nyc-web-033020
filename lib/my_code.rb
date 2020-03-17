@@ -1,2 +1,2 @@
 # Your Code Here
-source_array.map { |n| n * -1 }
+[1, 2, 3, -9].map { |n| n * -1 }

@@ -1,8 +1,10 @@
 # Your Code Here
-def map(source_array)
- source_array.map { |n| n * -1 }
-end
-
-def map(source_array)
-  source_array.map{|n| n}
-end
+def map(array)
+  new = [ ]
+  i = 0
+  while i < array.size
+    new.push(yeild(array[i]))
+    i += 1
+  end
+  new
+end 

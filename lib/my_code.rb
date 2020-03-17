@@ -1,8 +1,6 @@
 # Your Code Here
 def map(source_array)
-source_array.map { |n| n * -1 }
-end
+ source_array.map { |n| n * -1 }
 
-def map(source_array)
   source_array.map{|n| n}
-end 
+end

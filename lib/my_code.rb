@@ -10,5 +10,5 @@ def map(array)
 end
 
 
-def reduce
-end 
+def reduce(source_array)
+end
